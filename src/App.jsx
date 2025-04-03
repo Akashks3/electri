@@ -1474,7 +1474,7 @@ const [groceries, setGroceries] = useState(initialGroceryList);
         <tr>
           <td>${item.name}</td>
           <td>${item.measurementsarea}</td>
-          <td>${item.qty} (எண்ணிக்கை)</td>
+          <td>${item.qty}</td>
         </tr>
       `;
       })
@@ -1490,7 +1490,7 @@ const [groceries, setGroceries] = useState(initialGroceryList);
     const blob = new Blob([tableContent], { type: 'text/html' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = 'filtered_grocery_list.html';
+    link.download = 'list.html';
     link.click();
   };
 
