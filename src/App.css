@@ -1,0 +1,107 @@
+/* General styling */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Styling for the search and filter inputs */
+.search-field,
+.search-filter,
+.manual-filter {
+  margin-bottom: 15px;
+}
+
+.search-input,
+.input-field {
+  padding: 8px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-label {
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Table styling */
+.grocery-table,
+.filtered-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.grocery-table th,
+.filtered-table th {
+  background-color: #383838;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.grocery-table td,
+.filtered-table td {
+  padding: 10px 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.grocery-table tr:nth-child(even),
+.filtered-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grocery-table tr:hover,
+.filtered-table tr:hover {
+  background-color: #ddd;
+}
+
+/* Additional classes for better presentation */
+.no-items-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.filtered-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.download-btn {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  background-color: #008CBA;
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #007b8e;
+}
